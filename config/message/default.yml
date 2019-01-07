@@ -1,0 +1,6 @@
+required: "[label] is required."
+email: "[label] is invalid email address."
+regex: "[label] is invalid format."
+minlength: "[label] must contain at least [0] characters."
+maxlength: "[label] must be [0] characters or less."
+contain: "[label] is invalid value."

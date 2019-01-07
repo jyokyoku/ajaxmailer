@@ -1,0 +1,39 @@
+locale: ja
+
+smtp:
+  status: false
+  host:
+  smtp_auth: false
+  username:
+  password:
+  port: 587
+
+csrf_token:
+  status: true
+  field: _token
+
+cool_time:
+  status: true
+  seconds: 20
+
+response_1:
+  status: true
+  subject: "ウェブサイトからお問合せがありました。"
+  from:
+    name: "From name"
+    address: "from@test.com"
+  to:
+    name: "To name"
+    address: "to@test.com"
+  template: "default_1.txt"
+
+response_2:
+  status: true
+  subject: "お問合せありがとうございました。"
+  from:
+    name: "From name"
+    address: "from@test.com"
+  to:
+    name: "[name]"
+    address: "[email]"
+  template: "default_2.txt"

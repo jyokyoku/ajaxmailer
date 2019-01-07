@@ -1,0 +1,27 @@
+type:
+  label: 'お問合せの種類'
+  rules:
+    required: true
+    contain:
+      list:
+        - "テスト1"
+        - "テスト2"
+        - "テスト3"
+
+name:
+  label: 'お名前'
+  rules:
+    required: true
+    maxlength: 20
+
+email:
+  label: 'メールアドレス'
+  rules:
+    - required
+    - email
+
+message:
+  label: 'お問合せ内容'
+  rules:
+    required: true
+    maxlength: 2000

@@ -1,0 +1,6 @@
+required: "[label]は必須入力です。"
+email: "[label]は正しいメールアドレスの形式で入力して下さい。"
+regex: "[label]は不正な形式です。"
+minlength: "[label]は[0]文字以上入力して下さい。"
+maxlength: "[label]は[0]文字以下で入力して下さい。"
+contain: "[label]は不正な形式です。"
